@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: setup JDK
         uses: actions/setup-java@v2
+        with: 
+          java-version: '11'
+          distribution: 'temurin'
       - name: clone my repo
         uses: actions/checkout@v1
         
