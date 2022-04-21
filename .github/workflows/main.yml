@@ -16,3 +16,6 @@ jobs:
         
       - name: print current folder
         run : ls -la
+        
+      - name: check make version
+        run : make --version
