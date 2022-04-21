@@ -8,14 +8,11 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run : echo "Hello World!"
-        
       - name: clone my repo
         uses: actions/checkout@v1
         
       - name: print current folder
         run : ls -la
         
-      - name: check make version
-        run : make --version
+      - name: hello
+        run : make say-hello
