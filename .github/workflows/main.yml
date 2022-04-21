@@ -15,4 +15,4 @@ jobs:
         run : ls -la
         
       - name: hello
-        run : make say-hello
+        run : make  say-hello
