@@ -14,5 +14,8 @@ jobs:
       - name: print current folder
         run : ls -la
         
+      - name: print make version
+        run : make --version
+        
       - name: hello
-        run : make  say-hello
+        run : make say-hello
